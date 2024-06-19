@@ -1,0 +1,1 @@
+Results of trained models will be saved to this folder

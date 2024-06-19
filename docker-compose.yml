@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  tf-jupyter-vscode:
+    image: tf-gpu-jupyter-vscode
+    build: .
+    ports:
+      - "8888:8888"
+      - "8080:8080"
+    volumes:
+      - .:/workspace
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]

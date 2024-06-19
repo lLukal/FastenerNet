@@ -1,0 +1,1 @@
+The images transformed into 6 folders for easier access are placed in this folder (66 GB)
