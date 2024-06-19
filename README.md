@@ -21,4 +21,6 @@ Three types of jupyter notebook:
 - model_6 and model_142 (train models for 6 and 142 class classification tasks)
 - inference_6 and inference_142 (evaluate models for 6 and 142 class classification tasks)
 
-Trained models (models directory), model training and evaluation results (model_results directory), created datasets (datasets directory).
+Trained models (models directory), model training and evaluation results (model_results directory), created datasets (datasets directory) are all created with info files.
+Example models for each task have been added to the repository, but due to size constraints datasets haven't been. 
+The trained models are in .keras format and trained on 256x256 resolution images.
